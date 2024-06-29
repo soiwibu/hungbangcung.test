@@ -1,0 +1,28 @@
+
+.event { 
+    border: solid; 
+    border-radius: 30px;
+    padding: 20px; 
+    width: auto; 
+
+}
+
+.picture {
+    width: 250px; 
+}
+.picture-container { 
+    width: auto; 
+
+}
+.picture-grid {
+    
+    display: inline-grid; 
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 5px; 
+    row-gap: 1px; 
+    
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
